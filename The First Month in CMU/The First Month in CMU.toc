@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}入学需要办理的事情和流程}{2}{section.1}
+\contentsline {section}{\numberline {2}生活中那些鸡毛蒜皮的小事}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}乘坐公交}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}吃饭给小费}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}租车搬二手家具}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}乘坐校车和护送}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}办理DLC（Duquesne Light Co.）}{9}{subsection.2.5}

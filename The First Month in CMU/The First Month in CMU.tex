@@ -11,33 +11,51 @@
 \usepackage[colorlinks=true]{hyperref}
 
 \renewcommand{\figurename}{图}
+\renewcommand{\contentsname}{目录}
 
 \title{\textbf{初来乍到CMU之生活小指南}}
 \author{HMW-Alexander}
 
 \begin{document}
 	\maketitle
-	
-	签证被行政审查了21天后，终于在6月25号拿到了护照，然后匆匆抢到了27号（CST）飞往匹兹堡的最后一张机票。一切还算顺利，终于在学校规定的27号（EST）赶到了匹兹堡，开始了我的CMU生活。到今天，已经是整整一个月了，感觉时间飞逝，同时听闻秋季入学的同学们马上就要来了，于是记下一些东西\footnote{不过我也是菜鸟了，只写些觉得重要的事情和日常生活的一些小事。}，分享给大家以做参考，希望新人们顺利开始自己的CMU生活。
 		
+	\tableofcontents
+	\section*{更新日志}
+	
+	\begin{itemize}
+		\item 2016-07-27:
+		\begin{itemize}
+			\item 【修改】\#2.2 办理PNC银行卡
+			\item 【添加】2.4 乘坐校车和护送，2.5 办理DLC
+			\item  一些细节修改
+		\end{itemize}
+		\item 2016-07-26: 初稿
+	\end{itemize}
+	
+	\newpage
+	
+	签证被行政审查了21天后，终于在6月25号拿到了护照，然后匆匆抢到了27号（CST）飞往匹兹堡的最后一张机票。一切还算顺利，终于在学校规定的27号（EST）赶到了匹兹堡，开始了我的CMU生活。到今天，已经是整整一个月了，感觉时间飞逝，同时听闻秋季入学的同学们马上就要来了，于是记下一些东西\footnote{不过我也是菜鸟了，只写些觉得重要的事情和日常生活的一些小事。由于只是我的一面之词，还请老司机多指教。若是大家能一起参与贡献一点一滴，制作简单易懂、便于操作、便于流传且多方认证过的公共手册，那将是非常好的事情，e.g. CSSA新生手册就是一个不错的公共品平台。}，分享给大家以做参考，希望新人们顺利开始自己的CMU生活。
+	
 	\section{入学需要办理的事情和流程}
 	
 	如何顺利开始正式的学校生活，应该是新人们来匹兹堡最关心的事情之一，这里就个人经历列出入学需要办理的事情和流程：
 	
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.8\textwidth]{./img/flowchart}
+		\includegraphics[width=\textwidth]{./img/flowchart}
 		\caption{一列里的项目编号没有优先度区分，有向实线链接表示必备前提要求关系。}
 		\label{fig:flowchart}
 	\end{figure}
 	
 	对于上述项目，下面将介绍一些小细节，请对应编号查找：
 	
+	\newpage
+	
 	\subsection*{\#1.1 办理学生卡}
 	
 	\begin{itemize}
 		\item 需要到Cyert Hall办理（位置见图\ref{fig:cyert}）。
-		\item 进门直走，看到SIO之类的指示牌之后左转，走进去就到了。
+		\item 进门直走，看到SIO HUB之类的指示牌之后左转，走进去就到了。
 		\item 第一次办卡不需要交钱。
 		\item 现场照相（虽然我之前上传了照片，但是仍然让我现场照相）。
 		\item 学生卡立等可取。
@@ -69,7 +87,7 @@
 		\item 打电话（412-268-5231），或者到OIE办公室前台预约。前台在Warner Hall（图\ref{fig:warner}）的三层，出电梯右手边，直接进门。预约会指定一位Advisor给你，然后准时去OIE办公室就可以了。
 		\item 带上护照，I-20，I-94。
 		\item 获得SSN Form的同学，可以将表给指定的Adisor。他需要检查你的注册情况，然后签字，一般要3天。注意，要获得OIE的签字，注册的时候，必须满足36学分/学期，否则不会给你签字（请联系你的Graduate Advisor解决该问题）。
-		\item 离开OIE的时候，在门口有“Pennsylvania Driver's Manual”。可以自取又来考驾照的笔试。
+		\item 离开OIE的时候，在门口有“Pennsylvania Driver's Manual”。可以自取用来考驾照的笔试。
 	\end{itemize}
 	
 	\begin{figure}[!h]
@@ -83,9 +101,14 @@
 	
 	\begin{itemize}
 		\item 学校附近的PNC银行在Fifth和Craig的交叉口，周六上午也上班。
-		\item 办理银行卡需要预约（图\ref{fig:pnc}）。你可以到柜台预约，一般预约后第二天来办，也可以邮件预约（没试过）。
+		\item 办理银行卡一般需要预约，如果幸运有free agent的话，当场也能办（图\ref{fig:pnc}）。你可以到柜台预约，一般预约后第二天来办，也可以邮件预约（没试过）。
 		\item 带上护照和学生证，开户需要往里面存少许钱（25刀？具体忘了）。
-		\item 银行账户两个工作日激活，银行卡一到两周寄到你的邮箱。
+		\item 开户时会给你所有账户信息，两张支票，两张存款单：
+		\begin{itemize}
+			\item 账户分三种：spend account（instant use），reserve account（short-term），growth account（long-term，有些许利息）。
+			\item 账户信息包含route number和account number。
+		\end{itemize}
+		\item 银行账户一到两个工作日后激活，银行卡一到两周寄到你的邮箱。激活后应该就可以存钱转帐了。
 		\item 收到银行卡后，需要按照银行卡上的标签打电话激活。
 		\item 有了银行卡，就可以去办理网上银行。
 		\item 随卡寄来的还有另一封邮件，是网上银行id，也是你的临时SSN，但这个不能用来解锁锁定的网上银行。
@@ -198,16 +221,52 @@
 		\caption{搬家一般从U-HAUL租一辆卡车，需要有驾照的人开车。费用包含租车费+里程+油钱，一般100刀以内搞定。卡车非常容易开，小女生也可以快速上手，一点问题都没有。}
 	\end{figure}
 	
-	\begin{figure}[!ht]
+	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.8\textwidth]{./img/kenmawr}
 		\caption{住在Knemawr的同学往家里搬东西非常容易。在Howe Street有一个专门给卡车卸货的Dock（左图），此处的门（中图）需要从里面打开（也可以按门铃让doorman给你开），进门就是货梯（右图），空间非常大，电梯控制面板上面有一个switch用来锁定电梯门，在装卸过程中一定要扳成锁定状态，解除锁定电梯就可以动了。Kenmawr提供免费的cart用来搬运货物，非常方便。}
 	\end{figure}
 	
-	\begin{figure}[!ht]
+	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.8\textwidth]{./img/returntruck}
+		\includegraphics[width=0.6\textwidth]{./img/returntruck}
 		\caption{左图：搬完东西后，在还车之前需要加油直到租车时的油量多一点（开回去还会耗掉一些油）。右图：U-HAUL晚上7点关门，之后还车的话，把车停到U-HAUL的停车场，把钥匙和合同塞进一个红色邮箱就可以了。}
+	\end{figure}
+	
+	\subsection{乘坐校车和护送}
+	
+	校车和护送的时刻表于路线，大家可以在晚上查到（\url{https://www.cmu.edu/police/shuttleandescort/}），这里就不赘述了。
+	
+	\begin{itemize}
+		\item 乘校车时上车出示校园卡即可。下车类似于公交车，需要拉绳告知。校车站一般设在红绿灯前的地方。
+		\item 乘坐护送时上车出示校园卡，同时告知自己要去的目的地，住在Kenmawr的同学直接说Kenmawr就可以了，他会在指定目的地停车。
+	\end{itemize}
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.55\textwidth]{./img/shuttle}
+		\caption{左图：Morewood的校车始发站。右图：Heinz College前的护送pick up站点的标牌，在这等着就可以了。}
+	\end{figure}
+	
+	\subsection{办理DLC（Duquesne Light Co.）}
+	
+	联系DLC开通电力是非常让人头疼的事情，因为大多是没有回信的，让人不知所措。这里介绍一下没有SSN的同学如何申请DLC Account，虽然无法保证成功，但其实到了匹村后，房东或者公寓经理会帮你很快解决的。
+	
+	\begin{itemize}
+		\item 下载“Start Service Residential Form”表格\footnote{\url{https://www.duquesnelight.com/customer-service/service/new-customer}}，打印出来填写签字，然后扫描成电子版。注意：电话一定要提供美国号码，如果是中国号码，他们联系不了你。
+		\item 连同护照复印件，合同复印件一起发到申请邮箱（applicationsforservice@duqlight.com）。
+		\item 然后等他们打电话给你，让你用信用卡叫保证金，然后你就会收到Account Number的邮件。
+		\item 如果没有美国号码，你可以先提交资料，他们收到后会有记录，等你到了美国联系他们就可以了（不过据说电话不太好打通）。
+		\item 有了DLC Account后，你还无法创建DLC网上账户进行网上交费，因为你没有SSN。但是你可以提供水表号（meter number）代替。
+		\item 你可以在你的第一张账单上找到水表号（但是我没找到，我是用online chat问到的）。
+		\item 最后推荐用online chat联系他们客服（图\ref{fig:dlc}），回复非常快，非常有效率。但是有时网站上的online chat会隐藏起来，可能没上班。
+	\end{itemize}
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.55\textwidth]{./img/dlc}
+		\caption{DLC Online Chat：在REGISTER页面右侧的黑色面板里会有一个图标链接（笑脸位置，今天图标隐藏了）。}
+		\label{fig:dlc}
 	\end{figure}
 	
 \end{document}
